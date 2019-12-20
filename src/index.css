@@ -37,3 +37,40 @@ main {
 header h1 {
   text-align: center;
 }
+
+.mainImg {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubSection {
+  display: flex;
+  justify-content: center;
+}
+
+.btnStyle {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.frontFace {
+  width: 100px;
+  padding: 5px;
+}
+
+.CharacterCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

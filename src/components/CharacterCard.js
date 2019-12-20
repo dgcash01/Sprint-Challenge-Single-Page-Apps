@@ -18,6 +18,12 @@ const CharacterCard = (props) => {
             <div className='frontFace'>
                 <div className='charName'>{props.myCharacter.name}</div>
                 <div className='gender'>{props.myCharacter.gender}</div>
+                <div className='status'>{props.myCharacter.status}</div>
+                <div className='species'>{props.myCharacter.species}</div>
+                <div className='characterImgBox'>
+                  <img src={props.myCharacter.image} />
+                </div>
+
             </div>
             <div className='backFace'>
 

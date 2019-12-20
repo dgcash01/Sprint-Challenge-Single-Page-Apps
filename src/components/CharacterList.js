@@ -24,7 +24,7 @@ export default function CharacterList() {
   // console.log('in here');
   console.log(swData);
   return (
-      <section className = 'CharacterList'>
+      <section className = 'CharacterCards'>
           {
               swData.results.map(e => (<CharacterCard myCharacter = {e} />))
           }

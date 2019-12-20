@@ -9,7 +9,7 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background: slategray;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -38,14 +38,31 @@ header h1 {
   text-align: center;
 }
 
-.mainImg {
+.mainImgContainer {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+.main-img {
+  width: 600px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;  
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
+  border: 10px black;  
+  text-decoration: none;
+}
+
+.navLinks {
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 2px;
 }
 
 .pageTitle {
@@ -56,6 +73,7 @@ header h1 {
 .formSubSection {
   display: flex;
   justify-content: center;
+  color: Blue;
 }
 
 .btnStyle {
@@ -65,12 +83,44 @@ header h1 {
 }
 
 .frontFace {
-  width: 100px;
+  width: 200px;
   padding: 5px;
 }
 
 .CharacterCards {
+  border: solid black 1px;
+  box-shadow: 1px 1px 6px black;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: steelblue;
+  color: antiquewhite;
 }
+
+.characterImgBox {
+  width: 100%;  
+}
+.characterImgBox img {
+  width: 100%;  
+}
+
+.homeNavImg {
+  width: 90px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.homeNavImg:hover {
+  filter: sepia(100%);
+}
+
+.homeBtnText {
+  position: absolute;
+  width: 90px;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  text-align: center;
+}
+
